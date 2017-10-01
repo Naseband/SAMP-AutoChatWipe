@@ -12,11 +12,14 @@ The Gamemode Script will always be the master Script.
 
 # Defines/Settings
 
-__ACW_DELAY__ | Pause Delay in seconds after sending a regular client message.
+__ACW_DELAY__
+Pause Delay in seconds after sending a regular client message.
 
-__ACW_INTERVAL__ | Interval in seconds for sending empty lines.
+__ACW_INTERVAL__
+Interval in seconds for sending empty lines.
 
-__ACW_MAX_LINES__ | Max. number of empty Lines to send.
+__ACW_MAX_LINES__
+Max. number of empty Lines to send.
 
 You can define any of these in the Master (Gamemode) Script before including *acw.inc*.
 

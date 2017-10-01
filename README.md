@@ -1,4 +1,4 @@
-# acw.inc - Auto Chat Wipe
+# Auto Chat Wipe
 
 This Include will slowly send empty lines to players that did not recieve any client messages for a while.
 The purpose of this is to make the chat smaller if nothing is happening. Delay, Interval and number of empty lines can be configured.
@@ -7,7 +7,7 @@ The purpose of this is to make the chat smaller if nothing is happening. Delay, 
 
 Include it in every Script that can potentially send client messages.
 
-__Important__: If the Script is a Filterscript, define *FILTERSCRIPT* before including *acw.inc*. Otherwise it may execute twice.
+__Important__: If the Script is a Filterscript, define *FILTERSCRIPT* before including *autochatwipe.inc*. Otherwise it may execute twice.
 The Gamemode Script will always be the master Script.
 
 # Defines/Settings

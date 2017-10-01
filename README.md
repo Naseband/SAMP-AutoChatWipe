@@ -26,6 +26,6 @@ Max. number of empty Lines to send.
 
 You can define any of these in the Master (Gamemode) Script before including *autochatwipe.inc*.
 
-# Known Issues:
+# Known Issues
 
 RCON Responses and Messages from Client Commands or Server Plugins are not considered.

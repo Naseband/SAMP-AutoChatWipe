@@ -7,7 +7,7 @@ The purpose of this is to make the chat smaller if nothing is happening. Delay, 
 
 Include it in every Script that can potentially send client messages.
 
-__Important__: If the Script is a Filterscript, define *FILTERSCRIPT* before including *autochatwipe.inc*. Otherwise it may execute twice.
+__Important__: If the Script is a Filterscript, define *FILTERSCRIPT* before including. Otherwise it may execute twice.
 The Gamemode Script will always be the master Script.
 
 # Defines/Settings
@@ -24,7 +24,7 @@ __ACW_MAX_LINES__
 
 Max. number of empty Lines to send.
 
-You can define any of these in the Master (Gamemode) Script before including *acw.inc*.
+You can define any of these in the Master (Gamemode) Script before including *autochatwipe.inc*.
 
 # Known Issues:
 

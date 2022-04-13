@@ -53,7 +53,7 @@ stock ACW_SendClientMessageToAll(color, text[])
 #endif
 
 #if !defined ACW_MAX_LINES
-#define ACW_MAX_LINES       (7)#
+#define ACW_MAX_LINES       (7)
 #endif
 
 

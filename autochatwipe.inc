@@ -125,7 +125,7 @@ public OnPlayerText(playerid, text[])
 	ACW_LastGlobalSCM = GetTickCount();
 	ACW_ResetCount = true;
 
-    return CallLocalFunction("ACW_OnPlayerText", "ds", playerid, text), 1;
+    return CallLocalFunction("ACW_OnPlayerText", "ds", playerid, text);
 }
 
 #if defined _ALS_OnPlayerText
